@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+body {
+	width:75%;
+	margin:1.5em;
+}
+
+img {
+	width:100%;
+}
+
+p {
+	font-size: 1em;
+	margin: 1em;
+}
+
+h1 {
+	font-family: cursive;
+	font-size: 2em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	margin: 1em;
+	text-align: center;
+}
+
+footer {
+	font-size: .75em;
+	margin-top: 3em;
+}
+
+footer p {
+	margin: 0em;
+}
