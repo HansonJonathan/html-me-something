@@ -19,7 +19,6 @@ p {
 }
 
 h1 {
-	font-family: cursive;
 	font-size: 2em;
 	font-style: normal;
 	font-variant: normal;
@@ -28,6 +27,10 @@ h1 {
 	text-align: center;
 }
 
+.fancy {
+	color: #800000;
+	font-family: cursive;
+}
 footer {
 	font-size: .75em;
 	margin-top: 3em;
@@ -35,4 +38,8 @@ footer {
 
 footer p {
 	margin: 0em;
+}
+
+#email {
+	text-decoration: none;
 }
