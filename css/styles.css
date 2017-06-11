@@ -5,31 +5,42 @@
 }
 
 body {
-	width:75%;
-	margin:1.5em;
+	width: 75%;
+	margin: auto;
+	padding: 1.5em;
+	border: orange groove .33em;
+
 }
 
 img {
-	width:100%;
+	width: 100%;
+	box-shadow: 0em 0em 3em 0em #800000;
 }
 
 p {
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1em;
 	margin: 1em;
+
+}
+
+article p::first-letter {
+	font-size: 200%;
+	font-style: italic;
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 3em;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	margin: 1em;
+	margin-top: .5em;
 	text-align: center;
 }
 
 .fancy {
 	color: #800000;
-	font-family: cursive;
+	font-family: 'Great Vibes', cursive;
 }
 footer {
 	font-size: .75em;
@@ -37,7 +48,8 @@ footer {
 }
 
 footer p {
-	margin: 0em;
+	margin: 0;
+	font-style: italic;
 }
 
 #email {
